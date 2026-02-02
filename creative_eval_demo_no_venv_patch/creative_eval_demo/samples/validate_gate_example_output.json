@@ -1,0 +1,121 @@
+{
+  "description": "Validate Gate 评测示例",
+  "scenarios": {
+    "FAIL_轻扩劣化": {
+      "input": {
+        "windowed_metrics": [
+          {
+            "window_id": "T1",
+            "impressions": 50000,
+            "clicks": 800,
+            "installs": 2000,
+            "spend": 6000.0,
+            "early_events": 1200,
+            "early_revenue": 480.0,
+            "ipm": 40.0,
+            "cpi": 3.0,
+            "early_roas": 0.08
+          },
+          {
+            "window_id": "T2",
+            "impressions": 55000,
+            "clicks": 880,
+            "installs": 2090,
+            "spend": 6270.0,
+            "early_events": 1250,
+            "early_revenue": 500.0,
+            "ipm": 38.0,
+            "cpi": 3.0,
+            "early_roas": 0.08
+          },
+          {
+            "window_id": "T3",
+            "impressions": 60000,
+            "clicks": 900,
+            "installs": 2040,
+            "spend": 6528.0,
+            "early_events": 1180,
+            "early_revenue": 460.0,
+            "ipm": 34.0,
+            "cpi": 3.2,
+            "early_roas": 0.07
+          }
+        ],
+        "light_expansion_metrics": {
+          "window_id": "T2_light_expand",
+          "impressions": 20000,
+          "clicks": 280,
+          "installs": 520,
+          "spend": 1872.0,
+          "early_events": 280,
+          "early_revenue": 112.0,
+          "ipm": 26.0,
+          "cpi": 3.6,
+          "early_roas": 0.06
+        }
+      },
+      "result": {
+        "validate_status": "FAIL",
+        "risk_notes": [
+          "轻扩人群 IPM 明显劣化，Why now 可能虚高"
+        ],
+        "scale_recommendation": {
+          "scale_up_step": "建议加量步长 10%",
+          "stop_loss": "收紧止损：CPI +15% 或 IPM -20% 即停"
+        }
+      }
+    },
+    "PASS_稳定加量": {
+      "input": {
+        "windowed_metrics": [
+          {
+            "window_id": "T1",
+            "impressions": 50000,
+            "clicks": 800,
+            "installs": 2000,
+            "spend": 6000.0,
+            "early_events": 1200,
+            "early_revenue": 480.0,
+            "ipm": 40.0,
+            "cpi": 3.0,
+            "early_roas": 0.08
+          },
+          {
+            "window_id": "T2",
+            "impressions": 55000,
+            "clicks": 880,
+            "installs": 2200,
+            "spend": 6600.0,
+            "early_events": 1320,
+            "early_revenue": 528.0,
+            "ipm": 40.0,
+            "cpi": 3.0,
+            "early_roas": 0.08
+          }
+        ],
+        "light_expansion_metrics": {
+          "window_id": "T2_light",
+          "impressions": 20000,
+          "clicks": 288,
+          "installs": 720,
+          "spend": 2160.0,
+          "early_events": 430,
+          "early_revenue": 172.0,
+          "ipm": 36.0,
+          "cpi": 3.0,
+          "early_roas": 0.08
+        }
+      },
+      "result": {
+        "validate_status": "PASS",
+        "risk_notes": [
+          "无显著风险"
+        ],
+        "scale_recommendation": {
+          "scale_up_step": "建议加量步长 20%",
+          "stop_loss": "CPI 较首窗口涨幅 >25% 或 IPM 跌幅 >30%"
+        }
+      }
+    }
+  }
+}

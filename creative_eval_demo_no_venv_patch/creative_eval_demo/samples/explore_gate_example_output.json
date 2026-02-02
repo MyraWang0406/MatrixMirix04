@@ -1,0 +1,66 @@
+{
+  "description": "Explore Gate 评测示例",
+  "input_summary": {
+    "baseline_variant": "v001",
+    "test_variants": [
+      "v002",
+      "v003"
+    ],
+    "context_ios": {
+      "country": "CN",
+      "os": "iOS",
+      "objective": "install",
+      "segment": "18-30岁手游玩家，MOBA/竞技偏好"
+    },
+    "context_android": {
+      "country": "CN",
+      "os": "Android",
+      "objective": "install",
+      "segment": "18-30岁手游玩家，MOBA/竞技偏好"
+    }
+  },
+  "config": {
+    "min_spend": 500,
+    "min_better_metrics": 2
+  },
+  "results": {
+    "iOS": {
+      "gate_status": "PASS",
+      "reasons": [
+        "v002: 仅 1 个指标优于 baseline，需 ≥2",
+        "v003: 在 2 个指标上优于 baseline，通过"
+      ],
+      "eligible_variants": [
+        "v003"
+      ],
+      "variant_details": {
+        "v002": "FAIL",
+        "v003": "PASS"
+      },
+      "context": {
+        "country": "CN",
+        "os": "iOS",
+        "objective": "install",
+        "segment": "18-30岁手游玩家，MOBA/竞技偏好"
+      }
+    },
+    "Android": {
+      "gate_status": "FAIL",
+      "reasons": [
+        "v002: 仅 1 个指标优于 baseline，需 ≥2",
+        "v003: 仅 1 个指标优于 baseline，需 ≥2"
+      ],
+      "eligible_variants": [],
+      "variant_details": {
+        "v002": "FAIL",
+        "v003": "FAIL"
+      },
+      "context": {
+        "country": "CN",
+        "os": "Android",
+        "objective": "install",
+        "segment": "18-30岁手游玩家，MOBA/竞技偏好"
+      }
+    }
+  }
+}

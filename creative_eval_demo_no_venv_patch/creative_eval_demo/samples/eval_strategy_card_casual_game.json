@@ -1,0 +1,14 @@
+{
+  "card_id": "sc_casual_game_001",
+  "version": "1.0",
+  "vertical": "casual_game",
+  "country": "CN",
+  "os": "all",
+  "objective": "install",
+  "segment": "18-30岁手游玩家，MOBA/竞技偏好",
+  "motivation_bucket": "成就感",
+  "why_you_key": "hero_easy",
+  "why_you_label": "新英雄上手快",
+  "why_now_trigger": "新赛季刚开",
+  "root_cause_gap": "用户知道新赛季但不确定新英雄是否值得练，需要快速建立上手即强的认知并给出冲分理由"
+}

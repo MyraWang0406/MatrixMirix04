@@ -1,0 +1,222 @@
+{
+  "description": "元素级贡献分析 - ElementScore 表",
+  "card": "sc_game_install_001",
+  "element_scores": [
+    {
+      "element_type": "hook",
+      "element_value": "冲突/悬念",
+      "avg_IPM_delta_vs_card_mean": 15.0367,
+      "avg_CPI_delta_vs_card_mean": -0.43,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "why_you",
+      "element_value": "新英雄镜上手即强",
+      "avg_IPM_delta_vs_card_mean": 15.0367,
+      "avg_CPI_delta_vs_card_mean": -0.43,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "why_now",
+      "element_value": "新赛季冲分黄金期",
+      "avg_IPM_delta_vs_card_mean": 15.0367,
+      "avg_CPI_delta_vs_card_mean": -0.43,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "sell_point",
+      "element_value": "新英雄镜上手即强，新赛季冲分黄金期",
+      "avg_IPM_delta_vs_card_mean": 15.0367,
+      "avg_CPI_delta_vs_card_mean": -0.43,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "cta",
+      "element_value": "立即下载",
+      "avg_IPM_delta_vs_card_mean": 15.0367,
+      "avg_CPI_delta_vs_card_mean": -0.43,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "subtitle_template=大字+高亮关键词",
+      "avg_IPM_delta_vs_card_mean": 15.0367,
+      "avg_CPI_delta_vs_card_mean": -0.43,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "bgm=电子/节奏感",
+      "avg_IPM_delta_vs_card_mean": 15.0367,
+      "avg_CPI_delta_vs_card_mean": -0.43,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "rhythm=快切，3秒一镜",
+      "avg_IPM_delta_vs_card_mean": 15.0367,
+      "avg_CPI_delta_vs_card_mean": -0.43,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "shot_template=游戏画面+字幕叠加",
+      "avg_IPM_delta_vs_card_mean": 15.0367,
+      "avg_CPI_delta_vs_card_mean": -0.43,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "hook",
+      "element_value": "利益前置",
+      "avg_IPM_delta_vs_card_mean": -3.8633,
+      "avg_CPI_delta_vs_card_mean": 0.65,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "why_you",
+      "element_value": "赛季皮肤免费领",
+      "avg_IPM_delta_vs_card_mean": -3.8633,
+      "avg_CPI_delta_vs_card_mean": 0.65,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "why_now",
+      "element_value": "现在登录就送",
+      "avg_IPM_delta_vs_card_mean": -3.8633,
+      "avg_CPI_delta_vs_card_mean": 0.65,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "sell_point",
+      "element_value": "赛季皮肤免费领，现在登录就送",
+      "avg_IPM_delta_vs_card_mean": -3.8633,
+      "avg_CPI_delta_vs_card_mean": 0.65,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "cta",
+      "element_value": "领福利",
+      "avg_IPM_delta_vs_card_mean": -3.8633,
+      "avg_CPI_delta_vs_card_mean": 0.65,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "subtitle_template=价格/福利大字",
+      "avg_IPM_delta_vs_card_mean": -3.8633,
+      "avg_CPI_delta_vs_card_mean": 0.65,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "bgm=轻松/欢快",
+      "avg_IPM_delta_vs_card_mean": -3.8633,
+      "avg_CPI_delta_vs_card_mean": 0.65,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "rhythm=舒缓展示",
+      "avg_IPM_delta_vs_card_mean": -3.8633,
+      "avg_CPI_delta_vs_card_mean": 0.65,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "shot_template=皮肤展示+福利弹窗",
+      "avg_IPM_delta_vs_card_mean": -3.8633,
+      "avg_CPI_delta_vs_card_mean": 0.65,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "hook",
+      "element_value": "社交/炫耀",
+      "avg_IPM_delta_vs_card_mean": -11.1733,
+      "avg_CPI_delta_vs_card_mean": -0.22,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "why_you",
+      "element_value": "排位机制优化，上分更容易",
+      "avg_IPM_delta_vs_card_mean": -11.1733,
+      "avg_CPI_delta_vs_card_mean": -0.22,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "why_now",
+      "element_value": "朋友都在冲",
+      "avg_IPM_delta_vs_card_mean": -11.1733,
+      "avg_CPI_delta_vs_card_mean": -0.22,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "sell_point",
+      "element_value": "排位机制优化，上分更容易，朋友都在冲",
+      "avg_IPM_delta_vs_card_mean": -11.1733,
+      "avg_CPI_delta_vs_card_mean": -0.22,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "cta",
+      "element_value": "马上开玩",
+      "avg_IPM_delta_vs_card_mean": -11.1733,
+      "avg_CPI_delta_vs_card_mean": -0.22,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "subtitle_template=战绩/段位强调",
+      "avg_IPM_delta_vs_card_mean": -11.1733,
+      "avg_CPI_delta_vs_card_mean": -0.22,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "bgm=燃/竞技感",
+      "avg_IPM_delta_vs_card_mean": -11.1733,
+      "avg_CPI_delta_vs_card_mean": -0.22,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "rhythm=激烈快切",
+      "avg_IPM_delta_vs_card_mean": -11.1733,
+      "avg_CPI_delta_vs_card_mean": -0.22,
+      "sample_size": 2,
+      "stability_flag": true
+    },
+    {
+      "element_type": "asset",
+      "element_value": "shot_template=对局画面+段位展示",
+      "avg_IPM_delta_vs_card_mean": -11.1733,
+      "avg_CPI_delta_vs_card_mean": -0.22,
+      "sample_size": 2,
+      "stability_flag": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "country": "CN",
+  "os": "Android",
+  "objective": "install",
+  "segment": "18-30岁手游玩家，休闲竞技偏好",
+  "motivation_bucket": "胜负欲",
+  "why_you_bucket": "新英雄上手快、赛季福利多",
+  "why_now_trigger": "新赛季刚开，冲分黄金期",
+  "hook_type": "冲突/悬念",
+  "sell_point": "新英雄镜上手即强，赛季皮肤免费领，现在冲分最划算",
+  "cta_text": "立即下载",
+  "storyboard_shots": [
+    { "t": 0, "visual": "黑屏+字幕", "overlay_text": "新赛季你上了吗？", "voiceover": "", "sfx_bgm": "悬念" },
+    { "t": 3, "visual": "英雄展示", "overlay_text": "新英雄镜", "voiceover": "镜一技能位移", "sfx_bgm": "燃" },
+    { "t": 6, "visual": "皮肤展示", "overlay_text": "赛季皮肤免费", "voiceover": "登录就领", "sfx_bgm": "" },
+    { "t": 10, "visual": "下载按钮", "overlay_text": "立即下载", "voiceover": "", "sfx_bgm": "" }
+  ],
+  "expression_layer": {
+    "narrative_arc": "悬念→展示→利益→CTA",
+    "key_moments": ["前三秒悬念", "英雄展示", "福利点", "行动号召"],
+    "tone": "热血、年轻"
+  },
+  "asset_layer_variables": {
+    "shot_template": "游戏画面+字幕叠加",
+    "subtitle_template": "大字+高亮关键词",
+    "bgm": "电子/节奏感",
+    "rhythm": "快切，3秒一镜"
+  },
+  "card_id": "sc_game_001",
+  "version": "1.0",
+  "tags": ["game", "season", "新英雄", "install"]
+}

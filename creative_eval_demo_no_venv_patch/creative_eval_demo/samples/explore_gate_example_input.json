@@ -1,0 +1,16 @@
+{
+  "description": "Explore Gate 示例输入结构",
+  "variant_metrics": "来自 simulated_metrics_example.json 中 baseline=false 的条目",
+  "baseline_metrics": "来自 simulated_metrics_example.json 中 baseline=true 的条目（按 os 匹配）",
+  "context": {
+    "country": "CN",
+    "os": "iOS",
+    "objective": "install",
+    "segment": "18-30岁手游玩家，MOBA/竞技偏好"
+  },
+  "config": {
+    "min_spend": 500,
+    "min_better_metrics": 2,
+    "improvement_pct": 0
+  }
+}

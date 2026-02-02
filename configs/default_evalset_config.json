@@ -1,0 +1,31 @@
+{
+  "vertical": {
+    "ecommerce": 0.70,
+    "casual_game": 0.30
+  },
+  "channel": {
+    "Meta": 0.45,
+    "TikTok": 0.35,
+    "Google": 0.20
+  },
+  "country": ["US", "JP", "KR", "TH", "VN", "BR"],
+  "os": {
+    "Android": 0.60,
+    "iOS": 0.40
+  },
+  "segment": {
+    "new": 0.60,
+    "returning": 0.25,
+    "retargeting": 0.15
+  },
+  "motivation_bucket": {
+    "ecommerce": ["deal_discount", "compare", "gift", "pain_relief", "convenience", "social_proof", "premium_quality"],
+    "game": ["boredom", "competition", "collection", "social", "immersion", "reward"]
+  },
+  "fallback": {
+    "country": "US",
+    "segment": "new",
+    "motivation_bucket": "deal_discount"
+  },
+  "baseline_strategy": "first_in_stratum"
+}

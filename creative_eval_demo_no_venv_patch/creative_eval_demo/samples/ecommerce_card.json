@@ -1,0 +1,16 @@
+{
+  "vertical": "ecommerce",
+  "product_name": "XXX 氨基酸洗发水",
+  "target_audience": "25-40岁女性，关注护发、头皮健康",
+  "key_selling_points": [
+    "无硅油配方",
+    "氨基酸表活，温和不刺激",
+    "控油蓬松，72小时不扁塌"
+  ],
+  "tone": "专业、种草",
+  "constraints": [
+    "功效宣称需有依据",
+    "不得暗示治疗功效"
+  ],
+  "extra_context": "投放平台：小红书、抖音；促销：首单立减30"
+}

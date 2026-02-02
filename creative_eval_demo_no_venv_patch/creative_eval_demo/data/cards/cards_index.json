@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "updated_at": "",
+  "indices": {
+    "vertical": {"casual_game": ["sc_casual_game_001"], "ecommerce": []},
+    "country": {"CN": ["sc_casual_game_001"]},
+    "segment": {"18-45岁休闲玩家": ["sc_casual_game_001"]},
+    "motivation_bucket": {"成就感": ["sc_casual_game_001"]}
+  },
+  "card_ids": ["sc_casual_game_001"]
+}

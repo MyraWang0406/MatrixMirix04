@@ -1,0 +1,12 @@
+{
+  "description": "变体优化建议 - 基于 ElementScore + GateResult",
+  "gate_context": {
+    "os": "Android",
+    "gate_status": "FAIL"
+  },
+  "suggestions": [
+    "【表达层】建议将 Hook 类型 从 「社交/炫耀」 调整为其他方案。数据依据：IPM 较卡片均值低 11.2。预期改善：IPM / early ROAS（间接）。",
+    "【策略层】建议将 Why you 卖点 从 「排位机制优化，上分更容易」 调整为其他方案。数据依据：IPM 较卡片均值低 11.2。预期改善：IPM / early ROAS（间接）。",
+    "【策略层】建议将 Why now 触发 从 「朋友都在冲」 调整为其他方案。数据依据：IPM 较卡片均值低 11.2。预期改善：IPM / early ROAS（间接）。"
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "variant_id": "v001",
+    "parent_card_id": "sc_game_install_001",
+    "hook_type": "冲突/悬念",
+    "sell_point": "新英雄镜上手即强，新赛季冲分黄金期",
+    "cta_type": "立即下载",
+    "expression_template": "5镜头",
+    "asset_variables": {
+      "subtitle_template": "大字+高亮关键词",
+      "bgm": "电子/节奏感",
+      "rhythm": "快切，3秒一镜",
+      "shot_template": "游戏画面+字幕叠加"
+    },
+    "why_you_expression": "新英雄镜上手即强",
+    "why_now_expression": "新赛季冲分黄金期"
+  },
+  {
+    "variant_id": "v002",
+    "parent_card_id": "sc_game_install_001",
+    "hook_type": "利益前置",
+    "sell_point": "赛季皮肤免费领，现在登录就送",
+    "cta_type": "领福利",
+    "expression_template": "3幕",
+    "asset_variables": {
+      "subtitle_template": "价格/福利大字",
+      "bgm": "轻松/欢快",
+      "rhythm": "舒缓展示",
+      "shot_template": "皮肤展示+福利弹窗"
+    },
+    "why_you_expression": "赛季皮肤免费领",
+    "why_now_expression": "现在登录就送"
+  },
+  {
+    "variant_id": "v003",
+    "parent_card_id": "sc_game_install_001",
+    "hook_type": "社交/炫耀",
+    "sell_point": "排位机制优化，上分更容易，朋友都在冲",
+    "cta_type": "马上开玩",
+    "expression_template": "5镜头",
+    "asset_variables": {
+      "subtitle_template": "战绩/段位强调",
+      "bgm": "燃/竞技感",
+      "rhythm": "激烈快切",
+      "shot_template": "对局画面+段位展示"
+    },
+    "why_you_expression": "排位机制优化，上分更容易",
+    "why_now_expression": "朋友都在冲"
+  }
+]

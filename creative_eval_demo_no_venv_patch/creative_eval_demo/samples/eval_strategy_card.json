@@ -1,0 +1,13 @@
+{
+  "card_id": "sc_game_install_001",
+  "version": "1.0",
+  "vertical": "game",
+  "country": "CN",
+  "os": "Android",
+  "objective": "install",
+  "segment": "18-30岁手游玩家，MOBA/竞技偏好",
+  "motivation_bucket": "胜负欲",
+  "why_you_bucket": "新英雄上手快",
+  "why_now_trigger": "新赛季刚开",
+  "root_cause_gap": "用户知道新赛季但不确定新英雄是否值得练，需要快速建立「上手即强」的认知并给出冲分理由"
+}
