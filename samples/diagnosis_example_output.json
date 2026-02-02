@@ -1,0 +1,60 @@
+{
+  "description": "诊断示例输出：OS_DIVERGENCE 与 HANDOFF_MISMATCH 两类",
+  "examples": [
+    {
+      "scenario": "OS_DIVERGENCE：iOS 过 Android 不过",
+      "diagnosis": {
+        "failure_type": "OS_DIVERGENCE",
+        "primary_signal": "IOS_PASS_ANDROID_FAIL",
+        "detail": "Android Explore 未过，双端结果不一致",
+        "recommended_actions": [
+          {
+            "action": "FIX_HANDOFF",
+            "change_field": "hook_type",
+            "direction": "Android 生成一组替换 hook 或节奏/表达",
+            "experiment_recipe": "端内修正：Android 保持不动，另一端替换 hook_type 候选池",
+            "target_os": "Android",
+            "reason": "同一变体 iOS 与 Android Explore 结论不一致"
+          }
+        ]
+      },
+      "prescription_summary": "处方：端内修正，target_os=Android，仅改 hook_type"
+    },
+    {
+      "scenario": "HANDOFF_MISMATCH：IPM 还行但 CPI/ROAS 崩",
+      "diagnosis": {
+        "failure_type": "HANDOFF_MISMATCH",
+        "primary_signal": "IPM_OK_BUT_CPI_BAD",
+        "detail": "Explore 过但 Validate 未过，IPM 还行但 CPI/ROAS 崩，承接断裂",
+        "recommended_actions": [
+          {
+            "action": "ADD_EVIDENCE",
+            "change_field": "",
+            "direction": "补证据/承接一致性",
+            "experiment_recipe": "延长观察窗口，补足承接稳定性证据",
+            "target_os": "",
+            "reason": "IPM 不差但 CPI/ROAS 崩，承接断裂"
+          },
+          {
+            "action": "CHANGE_WHY_NOW",
+            "change_field": "why_now_trigger",
+            "direction": "减少强诱导，提升一致性",
+            "experiment_recipe": "OFAAT：仅改 why_now_trigger，更保守",
+            "target_os": "",
+            "reason": "承接断裂时不优先动 hook"
+          },
+          {
+            "action": "CHANGE_CTA",
+            "change_field": "cta",
+            "direction": "避免过强诱导",
+            "experiment_recipe": "OFAAT：仅改 CTA",
+            "target_os": "",
+            "reason": "CTA 可能过强诱导"
+          }
+        ]
+      },
+      "prescription_summary": "处方：不优先动 hook；补证据/改 why_now/CTA"
+    }
+  ],
+  "prompt_example": "## 下一轮实验处方（来自诊断）\n\n**触发原因**: IPM 不差但 CPI/ROAS 崩，承接断裂\n**改动方向**: 减少强诱导，提升一致性\n**OFAAT 处方**: OFAAT：仅改 why_now_trigger，更保守\n\n**改动字段**: why_now_trigger\n**候选替代**: 新关卡上线, 限时福利, 版本更新\n\n**诊断**: failure_type=HANDOFF_MISMATCH, primary_signal=IPM_OK_BUT_CPI_BAD\n\n请根据上述处方生成下一轮 OFAAT 变体，一次只改一个字段。"
+}

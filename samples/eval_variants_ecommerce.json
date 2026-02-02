@@ -1,0 +1,66 @@
+[
+  {
+    "variant_id": "v001",
+    "parent_card_id": "sc_ecommerce_001",
+    "hook_type": "痛点共鸣",
+    "sell_point": "省心省钱，同款全网最低价",
+    "cta_type": "立即下单",
+    "expression_template": "5镜头",
+    "asset_variables": {
+      "subtitle_template": "价格/福利大字",
+      "bgm": "轻快/促销感",
+      "rhythm": "快切展示",
+      "shot_template": "商品特写+价格对比"
+    },
+    "why_you_expression": "省心省钱",
+    "why_now_expression": "同款全网最低价"
+  },
+  {
+    "variant_id": "v001b",
+    "parent_card_id": "sc_ecommerce_001",
+    "hook_type": "痛点共鸣",
+    "sell_point": "户外露营人群·出游场景·防雨帐篷睡袋需求：防雨防风耐用，雨季将至",
+    "cta_type": "立即下单",
+    "expression_template": "5镜头",
+    "asset_variables": {
+      "subtitle_template": "价格/福利大字",
+      "bgm": "轻快/促销感",
+      "rhythm": "快切展示",
+      "shot_template": "商品特写+价格对比"
+    },
+    "why_you_expression": "防雨防风耐用",
+    "why_now_expression": "雨季将至"
+  },
+  {
+    "variant_id": "v002",
+    "parent_card_id": "sc_ecommerce_001",
+    "hook_type": "利益前置",
+    "sell_point": "限时秒杀，手慢无，过时恢复原价",
+    "cta_type": "限时抢购",
+    "expression_template": "3幕",
+    "asset_variables": {
+      "subtitle_template": "倒计时+抢购",
+      "bgm": "紧迫/节奏感",
+      "rhythm": "密集卡点",
+      "shot_template": "商品+限时标签"
+    },
+    "why_you_expression": "限时秒杀",
+    "why_now_expression": "手慢无，过时恢复原价"
+  },
+  {
+    "variant_id": "v003",
+    "parent_card_id": "sc_ecommerce_001",
+    "hook_type": "口碑背书",
+    "sell_point": "正品保证，假一赔十，品质有保障",
+    "cta_type": "领券购买",
+    "expression_template": "5镜头",
+    "asset_variables": {
+      "subtitle_template": "正品/品质强调",
+      "bgm": "稳重/信任感",
+      "rhythm": "舒缓展示",
+      "shot_template": "商品细节+正品标识"
+    },
+    "why_you_expression": "正品保证，品质有保障",
+    "why_now_expression": "假一赔十"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "card_id": "sc_ecommerce_001",
+  "version": "1.0",
+  "vertical": "ecommerce",
+  "country": "CN",
+  "os": "all",
+  "objective": "purchase",
+  "segment": "价格敏感型用户",
+  "who_scenario_need": "户外露营人群·出游场景·防雨帐篷睡袋需求",
+  "motivation_bucket": "帐篷·雨季将至·防雨耐用",
+  "why_you_bucket": "更省钱",
+  "why_you_phrase": "同款全网最低价",
+  "why_now_trigger_bucket": "节点事件",
+  "why_now_phrase": "大促来袭",
+  "root_cause_gap": "用户怕踩雷不敢下单，需要建立正品/品质信任；同时怕错过优惠，需要明确限时与稀缺感",
+  "insight_gap": "怕踩雷不敢下单、比价成本高",
+  "insight_expectation": "正品保障、限时稀缺感、性价比清晰",
+  "insight_resolution": "同款最低价+假一赔十+倒计时营造紧迫"
+}

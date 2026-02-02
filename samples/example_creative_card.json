@@ -1,0 +1,41 @@
+{
+  "card_id": "sc_creative_001",
+  "version": "1.0",
+  "vertical": "casual_game",
+  "country": "CN",
+  "os": "all",
+  "objective": "install",
+  "segment": "18-50岁休闲玩家",
+  "motivation_bucket": "成就感",
+  "why_you_key": "hero_easy",
+  "why_you_label": "上手快",
+  "why_now_trigger": "新手福利",
+  "root_cause_gap": "用户想玩但怕上手难，需要降低门槛与爽点前置",
+  "proof_points": ["真实对局展示", "3秒一局即开即玩", "新手福利登录即送"],
+  "handoff_expectation": "首屏 10 秒内出现：福利弹窗、游戏主界面、新手引导",
+  "handoff_expectation_detail": {
+    "first_screen_promise": "福利弹窗+游戏主界面+新手引导",
+    "consistency_check": true
+  },
+  "segment_spec": {
+    "country": "CN",
+    "language": "zh",
+    "os": "all",
+    "user_type": "new",
+    "context_scene": "通勤碎片"
+  },
+  "insight_tension": {
+    "root_gap": "怕上手难、怕投入时间无回报",
+    "trigger": "无聊想解压",
+    "contrast": "以为要肝很久→实际 3 秒一局爽"
+  },
+  "format_pattern": {
+    "narrative_type": "POV",
+    "rhythm": "0-3s爆点",
+    "evidence_style": "画面"
+  },
+  "risk_flags": [],
+  "source_channel": "Meta",
+  "source_url": "",
+  "source_date": "2025-01"
+}

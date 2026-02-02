@@ -1,0 +1,18 @@
+{
+  "card_id": "sc_casual_game_001",
+  "version": "1.0",
+  "vertical": "casual_game",
+  "country": "CN",
+  "os": "all",
+  "objective": "install",
+  "segment": "18-45岁休闲玩家",
+  "motivation_bucket": "消消乐·通勤碎片·连击爽感",
+  "why_you_bucket": "更省事",
+  "why_you_phrase": "上手快",
+  "why_now_trigger_bucket": "机会出现",
+  "why_now_phrase": "新手福利",
+  "root_cause_gap": "用户想玩但怕上手难，需要降低门槛与爽点前置；对福利敏感需明确登录即送",
+  "insight_gap": "怕上手难、怕投入时间无回报",
+  "insight_expectation": "快速进入爽点、福利即领即用",
+  "insight_resolution": "上手快+新手福利登录即送"
+}

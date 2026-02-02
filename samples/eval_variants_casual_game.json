@@ -1,0 +1,66 @@
+[
+  {
+    "variant_id": "v001",
+    "parent_card_id": "sc_casual_game_001",
+    "hook_type": "冲突/悬念",
+    "sell_point": "上手快爽点前置，新手福利登录即送",
+    "cta_type": "立即下载",
+    "expression_template": "5镜头",
+    "asset_variables": {
+      "subtitle_template": "大字+高亮关键词",
+      "bgm": "电子/节奏感",
+      "rhythm": "快切，3秒一镜",
+      "shot_template": "游戏画面+字幕叠加"
+    },
+    "why_you_expression": "上手快",
+    "why_now_expression": "新手福利"
+  },
+  {
+    "variant_id": "v001b",
+    "parent_card_id": "sc_casual_game_001",
+    "hook_type": "爽点展示",
+    "sell_point": "消消乐连击爽感消除丝滑，新关卡上线",
+    "cta_type": "立即下载",
+    "expression_template": "5镜头",
+    "asset_variables": {
+      "subtitle_template": "大字+高亮关键词",
+      "bgm": "电子/节奏感",
+      "rhythm": "快切，3秒一镜",
+      "shot_template": "游戏画面+字幕叠加"
+    },
+    "why_you_expression": "连击爽感消除丝滑",
+    "why_now_expression": "新关卡上线"
+  },
+  {
+    "variant_id": "v002",
+    "parent_card_id": "sc_casual_game_001",
+    "hook_type": "利益前置",
+    "sell_point": "福利多成长快，限时活动登录就送",
+    "cta_type": "领福利",
+    "expression_template": "3幕",
+    "asset_variables": {
+      "subtitle_template": "福利大字",
+      "bgm": "轻松/欢快",
+      "rhythm": "舒缓展示",
+      "shot_template": "皮肤展示+福利弹窗"
+    },
+    "why_you_expression": "福利多",
+    "why_now_expression": "限时活动"
+  },
+  {
+    "variant_id": "v003",
+    "parent_card_id": "sc_casual_game_001",
+    "hook_type": "社交/炫耀",
+    "sell_point": "画风好氛围轻松，朋友都在玩",
+    "cta_type": "马上开玩",
+    "expression_template": "5镜头",
+    "asset_variables": {
+      "subtitle_template": "战绩/段位强调",
+      "bgm": "燃/竞技感",
+      "rhythm": "激烈快切",
+      "shot_template": "对局画面+段位展示"
+    },
+    "why_you_expression": "画风好氛围",
+    "why_now_expression": "朋友都在玩"
+  }
+]
